@@ -1,0 +1,69 @@
+1️⃣ SQL Entegrasyonu
+
+ database.py oluştur, SQLite bağlantısını ve tabloyu ekle (X)
+
+ logic.py içinde from database import conn, cursor yap (X)
+
+ Pokémon oluşturulunca SQL’e kaydet (INSERT OR REPLACE) (X)
+
+ Pokémon eğitince veya HP değişince SQL’i güncelle (UPDATE) (X)
+
+ Bot açıldığında SQL’den Pokémonları yükle (X)
+
+2️⃣ Discord Bot Temel Komutları
+
+ !go → yeni Pokémon oluşturma (X)
+
+ !info → kendi Pokémon bilgisini gösterme (X)
+
+ !wizard → tüm sihirbaz Pokémonları listele (X)
+
+ !fighter → tüm dövüşçü Pokémonları listele (X)
+
+ !feed → Pokémon besleme (X)
+
+ !train → Pokémon eğitme (X)
+
+ !attack @hedef → Pokémon ile saldırı yapma (X)
+
+3️⃣ Yapay Zekâ Görsel Özelliği
+
+ Reve AI veya başka AI API ekle
+
+ Pokémon seçildiğinde önceden hazırlanmış prompt gönder ve görsel al
+
+ Görseli Discord’da embed ile göster
+
+ Farklı stiller (anime, cyberpunk, savaşan vs.) ekle
+
+4️⃣ Moderasyon Sistemi
+
+ Argo ve küfürleri algıla (örneğin regex veya liste ile)
+
+ Kullanıcıya uyarı mesajı gönder
+
+ Sunucuda saygılı ortamı koru
+
+5️⃣ Koleksiyon ve SQL Raporlama
+
+ Kullanıcı Pokémon ekleyebilsin (!mypokemon)
+
+ SQL’den veri çekip koleksiyon göster
+
+ Pokémon bilgilerini ve görselleri koleksiyonla birleştir
+
+6️⃣ Proje Ortamı ve GitHub
+
+ Python ortamı kuruldu
+
+ Gerekli kütüphaneler yüklendi (discord.py, aiohttp, sqlite3)
+
+ GitHub deposu oluşturuldu
+
+7️⃣ Sonraki Adımlar
+
+ Discord bot komutlarını SQL ve AI ile tam entegre et
+
+ Prompt listesini hazırla ve kullanıcıya stil seçenekleri sun
+
+ Bot testlerini yap ve hataları düzelt

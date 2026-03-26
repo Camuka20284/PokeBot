@@ -87,14 +87,21 @@ Pokémon Sınıfları
 Sihirbaz 🪄
 
 Saldırı: Sabit 5 hasar ateş topu
+
 Savunma: Rastgele savunma mekanizması
 
 %40 → Tam hasar al
+
 %10 → Yarı hasar al
+
 %30 → Kaçış (0 hasar)
+
 %10 → Yarı hasarı geri yansıt
+
 %9 → Tam hasarı geri yansıt
+
 %1 → Çift hasar geri yansıt
+
 
 Besleme: +20 HP
 

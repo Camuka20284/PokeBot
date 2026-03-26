@@ -3,9 +3,13 @@ Pokémon yakalamak, savaştırmak ve koleksiyon oluşturmak için Discord botu.
 
 Kurulum
 bashpip install discord.py aiohttp
+
 config.py dosyasına aşağıdakileri ekleyin:
+
 pythontoken = "DISCORD_TOKEN"
+
 reve_api_key = "REVE_API_KEY"
+
 Botu başlatın:
 bashpython bot.py
 

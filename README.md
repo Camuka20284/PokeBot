@@ -84,6 +84,7 @@ Susturma süresi:
 
 
 Pokémon Sınıfları
+
 Sihirbaz 🪄
 
 Saldırı: Sabit 5 hasar ateş topu

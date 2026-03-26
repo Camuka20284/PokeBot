@@ -14,7 +14,7 @@ Temel Komutlar
 KomutAçıklama:
 
 !go
-Yeni bir Pokémon oluşturur.Sihirbaz 🪄 veya Dövüşçü ⚔️ rastgele gelir.
+Yeni bir Pokémon oluşturur. Sihirbaz 🪄 veya Dövüşçü ⚔️ rastgele gelir.
 
 !info
 Main Pokémon'unun bilgilerini gösterir (HP, Güç, Level, Tür, Sınıf).
@@ -28,7 +28,7 @@ Pokémon'u eğitir. Güç +5, Level +1 artar.
 Savaş
 KomutAçıklama:
 
-!attack @hedefHedef oyuncunun Pokémon'una saldırır.Hedef Sihirbaz ise savunma mekanizması devreye girer.Düşman ölürse 1 hunt tokeni kazanırsın.
+!attack @hedefHedef oyuncunun Pokémon'una saldırır. Hedef Sihirbaz ise savunma mekanizması devreye girer. Düşman ölürse 1 hunt tokeni kazanırsın.
 
 Koleksiyon
 KomutAçıklama:
@@ -44,7 +44,7 @@ Pokémon'u doğaya bırakır. Main bırakılırsa en güçlüsü otomatik main o
 Hunt Sistemi
 KomutAçıklama:
 !hunt
-Pokémon avına çıkar. %75 yakalama şansı. Maks. 10 Pokémon taşınabilir.Her öldürülen Pokémon → 1 hunt tokeni kazanılır.
+Pokémon avına çıkar. %75 yakalama şansı. Maks. 10 Pokémon taşınabilir. Her öldürülen Pokémon → 1 hunt tokeni kazanılır.
 
 AI Görsel
 KomutAçıklama:
@@ -102,9 +102,15 @@ Besleme: 10 saniyede bir, +15 HP
 Dosya Yapısı
 pokemon_bot/
 ├── bot.py          # Ana bot dosyası, tüm komutlar
+
 ├── logic.py        # Pokémon sınıfları
+
 ├── database.py     # SQLite bağlantısı ve tablolar
+
 ├── reve_api.py     # Reve AI görsel üretimi
+
 ├── moderation.py   # Moderasyon sistemi
+
 ├── collection.py   # Koleksiyon ve hunt sistemi
+
 └── config.py       # Token ve API anahtarları

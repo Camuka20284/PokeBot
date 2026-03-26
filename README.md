@@ -11,22 +11,64 @@ bashpython bot.py
 
 Komutlar
 Temel Komutlar
-KomutAçıklama!goYeni bir Pokémon oluşturur. Sihirbaz 🪄 veya Dövüşçü ⚔️ rastgele gelir.!infoMain Pokémon'unun bilgilerini gösterir (HP, Güç, Level, Tür, Sınıf).!feedPokémon'u besler, HP artar. 60 saniyede bir kullanılabilir.!trainPokémon'u eğitir. Güç +5, Level +1 artar.
+KomutAçıklama:
+
+!go
+Yeni bir Pokémon oluşturur.Sihirbaz 🪄 veya Dövüşçü ⚔️ rastgele gelir.
+
+!info
+Main Pokémon'unun bilgilerini gösterir (HP, Güç, Level, Tür, Sınıf).
+
+!feed
+Pokémon'u besler, HP artar. 60 saniyede bir kullanılabilir.
+
+!train
+Pokémon'u eğitir. Güç +5, Level +1 artar.
 
 Savaş
-KomutAçıklama!attack @hedefHedef oyuncunun Pokémon'una saldırır.Hedef Sihirbaz ise savunma mekanizması devreye girer.Düşman ölürse 1 hunt tokeni kazanırsın.
+KomutAçıklama:
+
+!attack @hedefHedef oyuncunun Pokémon'una saldırır.Hedef Sihirbaz ise savunma mekanizması devreye girer.Düşman ölürse 1 hunt tokeni kazanırsın.
 
 Koleksiyon
-KomutAçıklama!collectionTüm Pokémon'larını (HP+Güç)/2 skoruna göre listeler. Main ⭐ ile işaretlenir.!collection [id]=mainBelirtilen Pokémon'u main yapar. Örnek: !collection 3=main!release [id]Pokémon'u doğaya bırakır. Main bırakılırsa en güçlüsü otomatik main olur.
+KomutAçıklama:
+!collection
+Tüm Pokémon'larını (HP+Güç)/2 skoruna göre listeler. Main ⭐ ile işaretlenir.
+
+!collection [id]=main
+Belirtilen Pokémon'u main yapar. Örnek: !collection 3=main
+
+!release[id]
+Pokémon'u doğaya bırakır. Main bırakılırsa en güçlüsü otomatik main olur.
 
 Hunt Sistemi
-KomutAçıklama!huntPokémon avına çıkar. %75 yakalama şansı. Maks. 10 Pokémon taşınabilir.Her öldürülen Pokémon → 1 hunt tokeni kazanılır.
+KomutAçıklama:
+!hunt
+Pokémon avına çıkar. %75 yakalama şansı. Maks. 10 Pokémon taşınabilir.Her öldürülen Pokémon → 1 hunt tokeni kazanılır.
 
 AI Görsel
-KomutAçıklama!aiartAnime stilinde AI görsel oluşturur (varsayılan).!aiart animeAnime stilinde AI görsel.!aiart cyberpunkCyberpunk stilinde AI görsel.!aiart watercolorSuluboya stilinde AI görsel.!aiart realisticGerçekçi stilinde AI görsel.
+KomutAçıklama:
+!aiart anime
+Anime stilinde AI görsel.
+
+!aiart cyberpunk
+Cyberpunk stilinde AI görsel.
+
+!aiart watercolor
+Suluboya stilinde AI görsel.
+
+!aiart realistic
+Gerçekçi stilinde AI görsel.
 
 Moderasyon (Yönetici)
-KomutAçıklama!warnings @kullanıcıKullanıcının kaç kural ihlali yaptığını gösterir.!clearwarnings @kullanıcıKullanıcının uyarılarını sıfırlar.
+KomutAçıklama:
+
+!warnings @kullanıcı
+Kullanıcının kaç kural ihlali yaptığını gösterir.
+
+!clearwarnings@kullanıcı
+Kullanıcının uyarılarını sıfırlar.
+
 Susturma süresi:
 
 1–4 ihlal → 1 dakika

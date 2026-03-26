@@ -69,6 +69,7 @@ Kullanıcının kaç kural ihlali yaptığını gösterir.
 !clearwarnings@kullanıcı
 Kullanıcının uyarılarını sıfırlar.
 
+
 Susturma süresi:
 
 1–4 ihlal → 1 dakika
@@ -77,11 +78,14 @@ Susturma süresi:
 20+ ihlal → 2 gün
 
 
+
 Pokémon Sınıfları
 Sihirbaz 🪄
 
 Saldırı: Sabit 5 hasar ateş topu
+
 Savunma: Rastgele savunma mekanizması
+
 
 %40 → Tam hasar al
 %10 → Yarı hasar al
@@ -97,6 +101,7 @@ Dövüşçü ⚔️
 
 Saldırı: Her saldırıda 5–15 ekstra geçici güç bonusu
 Besleme: 10 saniyede bir, +15 HP
+
 
 
 Dosya Yapısı
